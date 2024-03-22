@@ -42,6 +42,20 @@
     justify-content: end;
     width: 10%;
 }
+.list-footer{
+    list-style-type: none;
+    padding: 10px;
+    line-height: 40px;
+   
+}
+.li-footer{
+    background-color: red;
+    margin: 5px;
+}
+.list-title{
+    color: aqua;
+    font-weight: bold;
+}
 
 /* div header in alto centrale */
 .menu-list{
@@ -71,6 +85,15 @@
 .container.nove {
     max-width: 900px;
 }
+.width-100{
+    width: 100%;
+ }
+ .pg-50{
+    padding: 50px;
+ }
+ .text-center{
+    text-align: center;
+ }
 /* quadrato blu  */
 .square-60{
     width: 60%;
@@ -86,11 +109,7 @@ h2{
     margin-bottom: 1em;
 }
 /* quadrato grande verde */
-.green{
-    background-color: green;
-    height: 800px;/* da rimuovere */
-    width: 100%;
-}
+
 /* quadrati beige sono 4 */
 .beige{
     width: 18%;
@@ -162,4 +181,8 @@ h2{
     background-image: url(../img/item3.svg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg-item4{
+   
+  
 }
