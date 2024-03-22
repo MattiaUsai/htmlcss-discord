@@ -16,6 +16,9 @@
     font-size: x-large;
     margin:  auto;
 }
+.margin-20{
+    margin: 20px;
+}
 /* da il bordo trattegiato a tutti i quadrati */
 .square{
     border: 3px dashed black;
@@ -45,20 +48,25 @@
     width: 70%;
     text-align: center;
     font-weight: bolder;
-    color: white;
+    
 }
  /* div in alto a destra  */
-.bt-accedi{
+.button{
     padding: 10px;
     border-radius: 20px;
     font-size: large;
 }
 /* quadrato seconda riga */
 .pink{
-    background-color: palevioletred;
-    height: 300px;
+    
     width: 100%;
+    text-align: center;
+    margin: 100px ;
 }
+.text-white{
+    color: white;
+}
+
 /* container quadrato seconda riga  */
 .container.nove {
     max-width: 900px;
@@ -116,6 +124,8 @@
 }
 .bg-jumbo{
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .bg-colorblack{
     background-color: rgb(26, 26, 26);
