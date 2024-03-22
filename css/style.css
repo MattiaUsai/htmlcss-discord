@@ -4,11 +4,13 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* riga viene usata in tutta la pagina */
 .row{
     width: 100%;
-    padding: 30px;
+    padding: 0;
 }
+
 /* container 1200px definisce larghezza  */
 .container{
     max-width: 1200px;
@@ -160,7 +162,7 @@ h2{
     background-color: rgb(38,94,232);
 }
 .bg-colorgray{
-    background-color: lightgray;
+    background-color: #CCCCCC;
 }
 .bg-jumbo{
     background-image: url(../img/jumbo.png);
@@ -217,4 +219,13 @@ h2{
     background-size: contain;
     background-repeat: no-repeat;
   }
- 
+ .wave{
+    width: 100%;
+    filter: opacity(20%);
+    display:flex;
+
+ }
+ .wave-white.wave{
+   rotate: 180deg;
+    
+ }
